@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>五子棋</title>
+	<link rel="stylesheet" href="css/wzq.css">
+
+</head>
+<body>
+	<canvas id="canvas" width="600px" height="600px"></canvas>
+	<div class="start">
+		<input type="button" value="开始游戏" class="button">
+	</div>
+	<div class="cartel">
+    <div class="tips">
+      <h3 id="tishi"></h3>
+      <i id="close"></i>
+      <span id="restart">再来一局</span>
+      <span id="qipu">生成棋谱</span>
+    </div>
+		<a href="" id="save">保存棋谱</a>
+  </div>
+	<audio id="black" src="music/022.wav"></audio>
+	<audio id="white" src="music/097.wav"></audio>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="js/wzq.js"></script>
+
+</body>
+</html>
